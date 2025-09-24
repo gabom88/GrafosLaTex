@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{tikz}
+\begin{document}
+
+\begin{center}
+
+\large Grafo planar. \vspace{1cm}
+
+\begin{tikzpicture}
+  \draw (-9,6) -- (-5,6);
+  \draw (-9,6) to [bend left=50] (-5,6);
+  \draw[fill=lightgray](-9,6)circle(0.4)node[]{v1};
+  \draw[fill=lightgray](-7,6)circle(0.4)node[]{v2};
+  \draw[fill=lightgray](-5,6)circle(0.4)node[]{v3};
+  \filldraw[fill=white, draw=none](-9,5)circle(0.4);
+  \node at (-9,5){4};
+  \filldraw[fill=white, draw=none](-8,5)circle(0.4);
+  \node at (-8,5){*};
+  \filldraw[fill=white, draw=none](-6,5)circle(0.4);
+  \node at (-6,5){*};
+  \filldraw[fill=white, draw=none](-7,5)circle(0.4);
+  \node at (-7,5){3};
+  \filldraw[fill=white, draw=none](-5,5)circle(0.4);
+  \node at (-5,5){2};
+\end{tikzpicture}
+
+\end{center}
+\end{document}
