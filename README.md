@@ -29,5 +29,13 @@
     <td align="center"><a href="https://github.com/gabom88/GrafosLaTex/blob/main/grafo%20planar.tex">Grafo planar/a></td>
     <td align="center"><a href="https://github.com/gabom88/GrafosLaTex/blob/main/G%20%2B%20permutation%20tree.tex">G + Permutation tree</a></td>
   </tr>
+  <tr>
+    <td align="center"><img width="445" height="392" alt="Image" src="https://github.com/user-attachments/assets/980f605e-df36-488d-a61c-d3063335fafa" /></td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/gabom88/GrafosLaTex/blob/main/estrella.tex">Grafo planar/a></td>
+    <td align="center">-</td>
+  </tr>
 </table>
 </p>
