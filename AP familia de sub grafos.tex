@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{tikz}
+\begin{document}
+
+\begin{center}
+
+\begin{tikzpicture}
+  \draw[->, shorten >=0.3cm] (12.5,14) -- (11.5,12.5)
+    node[midway, left,  yshift=8pt, xshift=4pt]{\tiny 2}
+    node[midway, left,  xshift=-5pt]{\scriptsize $4c(f_{0}^2)=3$};
+  \draw[->, shorten >=0.3cm] (12.5,14) -- (13.5,12.5)
+    node[midway, right,  yshift=8pt, xshift=-4pt]{\tiny 4}
+    node[midway, rigth,  xshift=25pt]{\scriptsize $4c(f_{0}^2)=4$};
+  \draw[->, shorten >=0.3cm] (11.5,12.5) -- (10,11)
+    node[midway, left,  yshift=8pt, xshift=7pt]{\tiny 1}
+    node[midway, right, yshift=8pt, xshift=21pt]{\tiny 4}
+    node[midway, right, yshift=8pt, xshift=68pt]{\tiny 1}
+    node[midway, right, yshift=8pt, xshift=92pt]{\tiny 2}
+    node[midway, left,  xshift=-5pt]{\scriptsize $4c(f_{0}^3)=3$}
+    node[midway, rigth,  xshift=50pt]{\scriptsize $4c(f_{0}^3)=4$}
+    node[midway, rigth,  xshift=125pt]{\scriptsize $4c(f_{0}^2)=4$};
+  \draw[->, shorten >=0.3cm] (11.5,12.5) -- (11.5,11);
+  \draw[->, shorten >=0.3cm] (11.5,11) -- (11.5,9.5);
+  \draw[->, shorten >=0.3cm] (13.5,12.5) -- (13.5,11);
+  \draw[->, shorten >=0.3cm] (13.5,11) -- (13.5,9.5);
+  \draw[->, shorten >=0.3cm] (13.5,12.5) -- (15,11);
+  \draw[->, shorten >=0.3cm] (15,11) -- (15,9.5);
+  \draw[->] (10,11) -- (10,9.5)
+    node[midway, left]{\scriptsize $4c(f_{0}^4)=3$}
+    node[midway, right, yshift=8pt]{\tiny 4};  
+
+  \filldraw[fill=lightgray] (12.5,14) circle (0.3) node{$V_1$};
+  \filldraw[fill=lightgray] (11.5,12.5) circle (0.3) node{$V_2$};
+  \filldraw[fill=lightgray] (13.5,12.5) circle (0.3) node{$V_2$};
+  \filldraw[fill=lightgray] (10,11) circle (0.3) node{$V_3$};
+  \filldraw[fill=lightgray] (11.5,11) circle (0.3) node{$V_3$};
+  \filldraw[fill=lightgray] (13.5,11) circle (0.3) node{$V_3$};
+  \filldraw[fill=lightgray] (15,11) circle (0.3) node{$V_3$};
+
+  \filldraw[fill=lightgray] (11.5,9.5) circle (0.3) node{$x$} node[below=9pt]{$fail$};
+  \filldraw[fill=lightgray] (13.5,9.5) circle (0.3) node{$x$} node[below=9pt]{$fail$};
+  \filldraw[fill=lightgray] (15,9.5) circle (0.3) node{$x$} node[below=9pt]{$fail$};
+
+\end{tikzpicture}
+
+\end{center}
+\end{document}
