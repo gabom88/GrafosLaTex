@@ -34,7 +34,7 @@
     <td align="center">-</td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/gabom88/GrafosLaTex/blob/main/estrella.tex">Grafo planar/a></td>
+    <td align="center"><a href="https://github.com/gabom88/GrafosLaTex/blob/main/estrella.tex">Grafo estrella</a> - <a href="https://github.com/gabom88/GrafosLaTex/blob/main/estrella.pdf"><b>📄PDF📄</b></a></td>
     <td align="center">-</td>
   </tr>
 </table>
